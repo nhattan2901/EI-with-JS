@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.ground {
+  background: url('https://cdn.glitch.global/e72eb47c-b42e-4b6e-b640-4f7ff5b22b1f/nick-morrison-FHnnjk1Yj7Y-unsplash%201.png?v=1687838172591'), lightgray 50% / cover no-repeat;
+  width: 1440px;
+  height: 1024px;
+  flex-shrink: 0;
+  display: flex;
+  
+}
+.logo-while {
+  width: 432px;
+  height: 105px;
+  flex-shrink: 0;
+  padding: 435px 225px 484px 188px;
+  opacity: 0.8999999761581421;
+  background: rgba(195, 34, 112, 0.7);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.head {
+  display: flex;
+  color: var(--tm, #C32270);
+  /* Tiêu đề/20 */
+  font-size: 20px;
+  font-weight: 500;
+  margin: 84px 49px 
+}
+
+.icon-back {
+  margin:-4px 15px 0 0;
+}
+
+.icon-back:hover {
+  filter: blur(0.7px);
+  cursor: pointer;
+}
+
+.signin {
+  flex: 1;
+  background-color: #FFFFFF;
+}
+
+.logo-pink {
+  width: 428px;
+  height: 104px;
+  flex-shrink: 0;
+  margin: 40px 125px;
+}
+.wellcom-text {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+
+  /* Tiêu đề/18 */
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.signin-account {
+  margin: auto;
+  width: 523px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--xm, #BABABA);
+  background: #FFFfff;
+  margin-bottom: 25px;
+}
+
+.signin-account-text {
+  outline: none;
+  border-style: none;
+  color: var(--xm, #BABABA);
+  /* Tiêu đề/18 */
+  font-size: 18px;
+  font-weight: 500;
+  padding: 18px 0 0 20px;
+  width: 400px;
+}
+
+.signin-account-icon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  position: relative;
+  top: 8px;
+  left: 12px;
+  color: #ffffff;
+  background: aqua;
+}
+
+.signin-account-icon--hidden:hover {
+  cursor: pointer;
+}
+
+.button-click {
+  margin: 0 0 20px 78px;
+  border-radius: 10px;
+  border: 2px solid var(--trng, #FFfffF);
+  background-color: #C32270;
+  width: 523px;
+  height: 55px;
+  flex-shrink: 0;
+}
+
+.button-click:hover {
+  background-color: rgba(195, 34, 112, 0.7);
+  cursor: pointer;
+}
+
+.button-text {
+  color: var(--trng, #FFfffF);
+  /* Tiêu đề/18 */
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.pass-forgot {
+  color: #000000;
+  /* Tiêu đề/18 */
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 0 280px;
+}
+
+.pass-forgot:hover {
+  color: rgba(115, 96, 105, 0.7);
+  cursor: pointer;
+}
+
+.convert {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  /* Tiêu đề/18 */
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}

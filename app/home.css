@@ -1,0 +1,169 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 71px;
+  flex-shrink: 0;
+  background: #FFFfff;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header__icon-pink {
+  width: 162px;
+  height: 40px;
+  flex-shrink: 0;
+  margin: 16px 150px;
+}
+
+.header__text {
+  margin: 20px 150px;
+  display: flex;
+}
+
+.header__text-sign {
+  text-decoration: none;
+  color: var(--tm, #C32270);
+  /* Tiêu đề/18 */
+  font-size: 18px;
+  font-weight: 500;
+  margin: auto;
+  margin-left: 8px;
+}
+
+.header__icon-signin {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.body-build__box1 {
+  width: 1140px;
+  height: 385px;
+  flex-shrink: 0;
+  background: url("https://cdn.glitch.global/a8af7790-dc7f-4f81-97de-5f19cb4ca807/lilartsy-333oj7zFsdg-unsplash%201.png?v=1687935415826"), lightgray 0px -361.892px / 100% 197.427% no-repeat;
+  margin: -15px 0 0 150px;
+}
+
+.body-build__box1-halo {
+  margin: 15px;
+  color: var(--tm, #C32270);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 50px;
+  font-weight: 700;
+  padding: 70px 0 0 63px;
+}
+
+.body-build__box1-mes {
+  color: var(--trng, #FFFfff);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* Tiêu đề/18 */
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 0 0 78px;
+}
+
+.body-build__box1-page {
+  width: 99px;
+  height: 13px;
+  flex-shrink: 0;
+  margin: 150px 520px;
+}
+
+.body-build__box2 {
+  display: flex;
+  margin-left: 150px;
+}
+
+.body-build__box2-box {
+  width: 228px;
+  height: 220px;
+  flex-shrink: 0;
+  background: #deb4c2;
+}
+
+.body-build__box2-box-2 {
+  background: url("https://cdn.glitch.global/a8af7790-dc7f-4f81-97de-5f19cb4ca807/andrew-neel-ute2XAFQU2I-unsplash%201.png?v=1687935428394"), no-repeat;
+}
+
+.body-build__box2-box-4 {
+  background: url("https://cdn.glitch.global/a8af7790-dc7f-4f81-97de-5f19cb4ca807/green-chameleon-s9CC2SKySJM-unsplash%201.png?v=1687935416951"), no-repeat;
+}
+.body-build__box2-img {
+  display: block;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  min-height: 155px;
+}
+
+.body-build__box2-font {
+  color: var(--tm, #C32270);
+  font-size: 25px;
+  font-weight: 600;
+  margin: -5px 0 0 50px;
+  
+}
+
+.body-build__box2-font1 {
+  color: var(--trng, #FFFfff);
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 180px;
+  padding-bottom: 11px;
+  background: rgba(0, 0, 0, 0.4000000059604645);
+}
+
+.footer {
+  background: var(--tm, #C32270);
+  width: 1440px;
+  height: 288px;
+  flex-shrink: 0;
+}
+
+.footer-info {
+  display: flex;
+  justify-content : space-between;
+}
+
+.footer__icon-while {
+  width: 215px;
+  height: 52px;
+  flex-shrink: 0;
+  margin: 34px 0px 6px 150px
+}
+
+.footer-info__icon {
+  margin: 10px 20px 185px 150px;
+}
+
+
+.footer-beline {
+  display: flex;
+  margin-top: -10px;
+}
+
+.footer-location {
+  margin-right: 150px;
+}
+
+.footer-info__icon-right {
+  margin-right: 20px;
+}
+
+.footer-info__text {
+  color: var(--trng, #FFfffF);
+
+  /* Nội dung/Regular */
+  font-size: 15px;
+}
+
+.footer-info__text--weihgt {
+  font-weight: 500;
+}
+
+.footer-info__text--dis {
+  margin-left: 50px;
+  margin-top: 0;
+}

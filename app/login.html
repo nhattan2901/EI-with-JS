@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Hello World!</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="ground">
+      <img
+        class="logo-while"
+        src="https://cdn.glitch.global/e72eb47c-b42e-4b6e-b640-4f7ff5b22b1f/EIStudy%201.png?v=1687832883595"
+        alt=""
+      />
+      <div class="signin">
+        <div class="head">
+          <a href="home.html">
+            <img
+            class="icon-back"
+            src="https://cdn.glitch.global/e72eb47c-b42e-4b6e-b640-4f7ff5b22b1f/Icon.svg?v=1687838209097"
+            alt=""
+            />
+          </a>
+          <p class="signin-text">ĐĂNG NHẬP</p>
+        </div>
+        <img
+          class="logo-pink"
+          src="https://cdn.glitch.global/e72eb47c-b42e-4b6e-b640-4f7ff5b22b1f/z3007233494654_15ca45a569fa4c55c533e9fa0bdcc435%201.png?v=1687834057767"
+        />
+        <p class="wellcom-text">
+          Chào mừng bạn đã đến với EI Germany!
+        </p>
+        
+        <div class="signin-account">
+          <img class="signin-account-icon" src="https://cdn.glitch.global/e72eb47c-b42e-4b6e-b640-4f7ff5b22b1f/Icon%20(2).svg?v=1687838261187">
+          <input type="text" class="signin-account-text" id="acc" maxlength="100" placeholder="Email/Số điện thoại">
+        </div>
+
+        
+        <div class="signin-account">
+          <img class="signin-account-icon" src="https://cdn.glitch.global/e72eb47c-b42e-4b6e-b640-4f7ff5b22b1f/Icon%20(3).svg?v=1687854239162">
+          <input type="text" class="signin-account-text" id="pass" maxlength="200" placeholder="Mật khẩu">
+          <img class="signin-account-icon signin-account-icon--hidden" src= "https://cdn.glitch.global/e72eb47c-b42e-4b6e-b640-4f7ff5b22b1f/Icon%20(1).svg?v=1687838264076" alt= "">
+        </div>
+        
+        <button onclick="accLogin()" class="button-click"> 
+          <div class="button-text">Đăng nhập</div> 
+        </button>
+        <br/>
+        <a class="pass-forgot">Quên mật khẩu?</a>
+        
+        <p class="convert">
+          Nếu bạn chưa có tài khoản?
+          <a href="signup.html">Đăng ký</a>
+        </p>
+        
+      </div>
+    </div>
+  </body>
+</html>

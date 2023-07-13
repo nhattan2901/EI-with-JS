@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    background-size: 1440px 71px;
+    padding: 15px 150px;
+    align-items: center;
+
+}
+.login-btn{
+    display: flex;
+    align-items: center;
+}
+.login-btn img{
+    padding-right: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+.login-btn a{
+    text-decoration: none;
+    color: rgba(195, 34, 112, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+.content {
+    padding: 0 150px;
+}
+.slideshow{
+    position: relative;
+}
+.slideshow img {
+    width: 100%;
+}
+.daucham{
+    position: absolute;
+    bottom: 5%;
+    left: 521px;
+}
+.dot {
+    height: 13px;
+    width: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid;
+    margin-right: 4px;
+}
+.dot.final{
+    width: 24px;
+    background-color: rgba(195, 34, 112, 1);
+    border-radius: 7px;
+
+}
+.content-main > span{
+    text-align: center;
+    color:rgba(195, 34, 112, 1);
+    font-size: 30px;
+    padding: 32px 0;
+    font-weight: 700;
+}
+.content-main{
+    display: flex;
+    flex-direction: column;
+    
+}
+.don-hang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thong-tin-don-hang{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    width: 30%;
+    padding: 18px;
+}
+.anh {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.anh img{
+    width: 22%;
+}
+
+.thong-tin-don-hang a {
+    text-align: center;
+}
+.chi-tiet{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+}
+.chi-tiet-p{
+    color: black;
+    font-weight: 700;
+}
+.thong-tin-don-hang a{
+    text-decoration: none;
+    color: rgba(195, 34, 112, 1);
+    font-size: 13px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+.btnstyle{
+    background-color: rgba(195, 34, 112, 1);
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 0;
+    width: 165px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+.noiDungPhu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.chung{
+    width: 50%;
+    padding: 96px 0 0px 74px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.thanh{
+    width: 10px;
+    height: 191px;
+    background: rgba(195, 34, 112, 1);
+    border-radius: 5px;
+}
+.chung.bg1{
+    background-image: url("https://cdn.glitch.global/506dd698-f348-44c8-810e-dd2ed71b9caa/Group%2045.png?v=1689230785471");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chung.bg2{
+    background-image: url("https://cdn.glitch.global/506dd698-f348-44c8-810e-dd2ed71b9caa/lilartsy-333oj7zFsdg-unsplash%201.png?v=1689230812136");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chung-vb {
+    padding: 0 74px 10px 18px;
+    color: #fff;
+}
+.chung-vb.vb1 span {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.chung-vb.vb1 p, .chung-vb.vb-2 p {
+    padding-bottom: 16px;
+    font-size: 15px;
+}
+.chung.bgColor{
+    background-color:rgba(205, 135, 159, 0.6);
+}
+.chung-vb.vb-2 span {
+    display: block;
+    color: #C32270;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 16px;
+}
+.chung-vb.vb-2 p{
+    color:#000;
+}
+.btnstyle.phu{
+    border: 3px solid #fff;
+    text-decoration: none;
+}
+.chung-tt img {
+    float: right;
+    width: 68%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.footer{
+    color: #fff;
+    padding: 32px 150px;
+    background-color: #C32270;
+}
+.logo{
+    padding-bottom: 22px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.address{
+    display: flex;
+    flex-direction: row;
+}
+.icon-address{
+    padding-right: 22px;
+}
+.general-email{
+    display: flex;
+    align-items:flex-start;
+    padding-bottom: 25px;
+}
+.email{
+    padding-left: 20px;
+}
+.general-phone{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 25px;
+}
+.phone{
+    padding-left: 20px;
+}
+.logo-fb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.logo-fb p{
+    padding-left: 20px;
+}
+.logo-location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.logo-location p{
+    padding-left: 20px;
+}
